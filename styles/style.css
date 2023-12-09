@@ -1,0 +1,165 @@
+:root {
+    --main-background: #dfdfdf;
+    --stem-color: #22b708;
+    --sunflower-main-circle-color: #8f551e;
+    --sunflower-inner-circle-color: #9c6b18;
+    --petals-color: #f3fc00;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--main-background);
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    border-radius: 1rem;
+    height: max-content;
+    width: max-content;
+    padding : 1rem 2rem;
+}
+
+.stem{
+    width: 2.5rem;
+    height: 12rem;
+    background-color: var(--stem-color);
+    position: relative;
+    z-index: 100;
+}
+
+.sunflower-circle{
+    position: absolute;
+    top: 0;
+    translate: -1.25rem -2rem;
+    background-color: var(--sunflower-main-circle-color);
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sunflower-inner-circle{
+    height: 1.75rem;
+    width: 1.75rem;
+    background-color: var( --sunflower-inner-circle-color);
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px 1px var(--sunflower-inner-circle-color);
+}
+
+.petals{
+    position: absolute;
+    height: 2rem;
+    width: 1.5rem;
+    background-color: var(--petals-color);
+    top: 0;
+    translate: 0 -1.5rem;
+}
+
+.petals-tip{
+    position: absolute;
+    height: 2rem;
+    width: 1.5rem;
+    background-color: var(--petals-color);
+    top: 0;
+    translate: 0 -1rem;
+    border-radius: 100%;
+}
+
+.second{
+    translate: 1rem -1.5rem;
+    transform: rotate(30deg);
+}
+
+
+.third{
+    translate: 2rem -.85rem;
+    transform: rotate(45deg);
+}
+
+.fourth{
+    translate: 2.8rem .2rem;
+    transform: rotate(60deg);
+}
+
+.fifth{
+    translate: 3.2rem 1.4rem;
+    transform: rotate(75deg);
+}
+
+.sixth{
+    translate: 3rem 2.5rem;
+    transform: rotate(105deg);
+}
+
+.seventh{
+    translate: 2.4rem 3.7rem;
+    transform: rotate(125deg);
+}
+
+.eigth{
+    translate: 1.2rem 4.5rem;
+    transform: rotate(150deg);
+}
+
+.ninth{
+    translate: .2rem 4.7rem;
+    transform: rotate(175deg);
+}
+
+.tenth{
+    translate: -1rem 4.7rem;
+    transform: rotate(195deg);
+}
+
+.eleventh{
+    translate: -2rem 4.2rem;
+    transform: rotate(215deg);
+}
+
+.twelfth{
+    translate: -2.8rem 3.4rem;
+    transform: rotate(240deg);
+}
+
+.thirtheenth{
+    translate: -3.2rem 2.5rem;
+    transform: rotate(265deg);
+}
+
+.fourteenth{
+    translate: -3.2rem 1.2rem;
+    transform: rotate(280deg);
+}
+
+.fifteenth{
+    translate: -2.8rem -.1rem;
+    transform: rotate(300deg);
+}
+
+.sixteenth{
+    translate: -1.8rem -1rem;
+    transform: rotate(320deg);
+}
+
+.seventeenth{
+    translate: -1rem -1.7rem;
+    transform: rotate(350deg);
+}
